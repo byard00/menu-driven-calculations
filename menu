@@ -1,0 +1,60 @@
+#include <iostream>
+using namespace std;
+int main()
+
+
+{
+
+	// Variables
+	float num1 = 0;
+	float num2 = 0;
+	float ans = 0;
+	string option;
+	do
+
+		//get 1st number
+		cout << "Enter first number:\n";
+	cin >> num1;
+
+	//get num 2
+	cout << "Enter second number:\n";
+	cin >> num2;
+
+	//calculator menu;
+	cout << "\n";
+	cout << "calculator Menu:\n";
+	cout << "\n";
+	cout << "1. Add\n";
+	cout << "2. Subtract\n";
+	cout << "3. Multiply\n";
+	cout << "0. Exit\n";
+	cout << "\n";
+	cout << "Enter a choice:\n";
+	cin >> option;
+
+	//Menu option
+	if (option = "1" || option = "Add")
+	{
+		ans = num1 + num2;
+		cout << "The answer is: " << ans << "\n";
+		cout << "\n";
+	}
+
+
+	else if (option = "2" || option = "subtract")
+	{
+		ans = num1 - num2;
+		cout << "The answer is " << ans << "\n";
+		cout << "\n";
+	}
+
+	else if (option = "3" || option = "multiply")
+	{
+		ans = num1 * num2;
+		cout << "The answer is " << ans << "\n";
+
+	}
+
+	while (option = 0);
+
+}
